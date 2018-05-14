@@ -22,8 +22,7 @@ import java.util.ArrayList;
 import movie.qingshen.recyclerreandloview.MyTitleAdapter;
 import movie.qingshen.recyclerreandloview.RecyclerReAndLoView;
 import movie.qingshen.recyclerreandloview.RecyclerReAndLoView.OnDataUpdataListener;
-import view.qingshen.recyclerreandloview.adapter.TitleAdapter;
-import view.qingshen.recyclerreandloview.viewholder.ViewHolder;
+import movie.qingshen.recyclerreandloview.adapter.TitleAdapter;
 
 public class TitleMainActivity extends AppCompatActivity {
     private ArrayList<String> datas = new ArrayList<>();
