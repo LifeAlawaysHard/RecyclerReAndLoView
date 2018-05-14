@@ -11,7 +11,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
 import android.view.WindowManager.LayoutParams;
 import android.view.animation.LinearInterpolator;
 import android.widget.Button;
@@ -20,8 +19,9 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-import view.qingshen.recyclerreandloview.RecyclerReAndLoView.OnDataUpdataListener;
-import view.qingshen.recyclerreandloview.adapter.BaseAdapter;
+import movie.qingshen.recyclerreandloview.MyTitleAdapter;
+import movie.qingshen.recyclerreandloview.RecyclerReAndLoView;
+import movie.qingshen.recyclerreandloview.RecyclerReAndLoView.OnDataUpdataListener;
 import view.qingshen.recyclerreandloview.adapter.TitleAdapter;
 import view.qingshen.recyclerreandloview.viewholder.ViewHolder;
 

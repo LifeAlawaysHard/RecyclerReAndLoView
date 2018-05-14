@@ -1,5 +1,6 @@
-package view.qingshen.recyclerreandloview.viewholder;
+package movie.qingshen.recyclerreandloview.viewholder;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.graphics.Color;
 import android.support.v7.widget.RecyclerView;
@@ -7,7 +8,6 @@ import android.util.SparseArray;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 /**
@@ -48,6 +48,7 @@ public class ViewHolder extends RecyclerView.ViewHolder {
         getView(viewId).setBackgroundColor(Color.parseColor(color));
     }
 
+    @SuppressLint("WrongConstant")
     public void setViewVisibility(int viewId, boolean visible) {
         getView(viewId).setVisibility(visible ? View.VISIBLE : View.GONE);
     }

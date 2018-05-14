@@ -1,17 +1,13 @@
-package view.qingshen.recyclerreandloview.adapter;
+package movie.qingshen.recyclerreandloview.adapter;
 
-import android.content.Context;
-import android.support.v4.util.ArrayMap;
 import android.support.v4.util.SparseArrayCompat;
 import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.RecyclerView.AdapterDataObserver;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.ViewGroup.LayoutParams;
 
-import java.util.ArrayList;
+import movie.qingshen.recyclerreandloview.viewholder.ViewHolder;
 
-import view.qingshen.recyclerreandloview.viewholder.ViewHolder;
 
 /**
  * Created by yyp on 2018/4/11.

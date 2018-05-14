@@ -1,16 +1,11 @@
-package view.qingshen.recyclerreandloview.adapter;
+package movie.qingshen.recyclerreandloview.adapter;
 
-import android.support.v4.util.ArrayMap;
-import android.support.v4.util.SimpleArrayMap;
 import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.RecyclerView.Adapter;
-import android.view.ViewGroup;
 
 import java.util.ArrayList;
-import java.util.LinkedHashMap;
-import java.util.Map;
 
-import view.qingshen.recyclerreandloview.viewholder.ViewHolder;
+import movie.qingshen.recyclerreandloview.viewholder.ViewHolder;
+
 
 /**
  * Created by yyp on 2018/4/26.

@@ -1,4 +1,4 @@
-package view.qingshen.recyclerreandloview;
+package movie.qingshen.recyclerreandloview;
 
 import android.content.Context;
 import android.support.annotation.Nullable;
@@ -8,7 +8,8 @@ import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
 
-import view.qingshen.recyclerreandloview.adapter.HeaderAndFooterAdapterWrapper;
+import movie.qingshen.recyclerreandloview.adapter.HeaderAndFooterAdapterWrapper;
+
 
 /**
  * Created by yyp on 2018/3/14.

@@ -1,12 +1,12 @@
-package view.qingshen.recyclerreandloview;
+package movie.qingshen.recyclerreandloview;
 
 import android.content.Context;
 import android.view.ViewGroup;
 
 import java.util.ArrayList;
 
-import view.qingshen.recyclerreandloview.adapter.TitleAdapter;
-import view.qingshen.recyclerreandloview.viewholder.ViewHolder;
+import movie.qingshen.recyclerreandloview.adapter.TitleAdapter;
+import movie.qingshen.recyclerreandloview.viewholder.ViewHolder;
 
 /**
  * Created by yyp on 2018/4/26.

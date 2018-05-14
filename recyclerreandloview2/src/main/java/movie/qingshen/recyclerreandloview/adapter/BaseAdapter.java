@@ -1,14 +1,14 @@
-package view.qingshen.recyclerreandloview.adapter;
+package movie.qingshen.recyclerreandloview.adapter;
 
 import android.content.Context;
-import android.support.constraint.solver.Goal;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
 
 import java.util.ArrayList;
 
-import view.qingshen.recyclerreandloview.viewholder.ViewHolder;
+import movie.qingshen.recyclerreandloview.viewholder.ViewHolder;
+
 
 /**
  * Created by yyp on 2018/4/4.

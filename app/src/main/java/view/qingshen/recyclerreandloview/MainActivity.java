@@ -19,9 +19,10 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-import view.qingshen.recyclerreandloview.RecyclerReAndLoView.OnDataUpdataListener;
-import view.qingshen.recyclerreandloview.adapter.BaseAdapter;
-import view.qingshen.recyclerreandloview.viewholder.ViewHolder;
+import movie.qingshen.recyclerreandloview.RecyclerReAndLoView;
+import movie.qingshen.recyclerreandloview.RecyclerReAndLoView.OnDataUpdataListener;
+import movie.qingshen.recyclerreandloview.adapter.BaseAdapter;
+import movie.qingshen.recyclerreandloview.viewholder.ViewHolder;
 
 public class MainActivity extends AppCompatActivity {
     private ArrayList<String> datas = new ArrayList<>();
